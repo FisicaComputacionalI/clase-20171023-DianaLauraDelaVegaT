@@ -1,0 +1,22 @@
+//Suma de numeros Naturales
+//Diana Laura De la Vega Trinidad
+//23-10-17
+#include <iostream>
+using namespace std;
+int main ()
+{
+int sum=0;
+int N=0;
+
+cout<<"Introduce un natural n: ";
+cin>>N;
+
+for (int i=0; i<=N; i++){
+    
+sum=sum+i;
+
+}
+cout<<"La suma de los N numeros naturales es: "<< sum <<endl;
+
+return 0;
+}
